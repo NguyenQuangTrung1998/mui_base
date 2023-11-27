@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import { Box, Checkbox, BoxProps, CheckboxProps } from "@mui/material";
 //
 import Icon from "./Icon";
-import { Sx } from "../../types/mui";
 
 // ----------------------------------------------------------------------
 

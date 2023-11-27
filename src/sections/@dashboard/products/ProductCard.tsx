@@ -49,7 +49,7 @@ export default function ShopProductCard({ product }:any) {
       </Box>
 
       <Stack spacing={2} sx={{ p: 3 }}>
-        <Link color="inherit" underline="hover">
+        <Link href='product_detail' color="inherit" underline="hover">
           <Typography variant="subtitle2" noWrap>
             {name}
           </Typography>

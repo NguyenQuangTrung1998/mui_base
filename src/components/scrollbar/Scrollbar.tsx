@@ -9,7 +9,7 @@ import { StyledRootScrollbar, StyledScrollbar } from './styles';
 
 Scrollbar.propTypes = {
   sx: PropTypes.object,
-  children: PropTypes.node,
+  children: PropTypes.any,
 };
 
 function Scrollbar({ children, sx, ...other }:any) {
